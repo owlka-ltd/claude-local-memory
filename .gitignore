@@ -1,0 +1,10 @@
+# Built artifacts and downloaded components. Everything here is reproducible
+# from build.sh, and the model + wheels are far too large to belong in git.
+dist/
+vendor/
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
